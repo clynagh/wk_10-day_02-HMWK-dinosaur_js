@@ -1,11 +1,9 @@
-var Dinosaur = function(type){
+var Dinosaur = function(type, offspring){
   this.type = type;
+  this.offspring = 0;
 };
 
 
-// Dinosaur.prototype.offspring = function(){
-
-// }
 
 
 

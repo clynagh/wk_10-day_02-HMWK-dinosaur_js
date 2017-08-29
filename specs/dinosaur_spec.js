@@ -19,11 +19,12 @@ describe("Dinosaur", function(){
     assert.strictEqual(dinosaur3.type, "spikey")
   });
 
-  // it("dinosaur has number of offspring each year", function(){
-  //   dinosaur = new Dinosaur()
-  //   assert.strictEqual(dinosaur.offspring, 2)
+  it("dinosaur has number of offspring each year", function(){
+    dinosaur1 = new Dinosaur("big");
+    // dinosaur1.offspring(2);
+    assert.strictEqual(dinosaur1.offspring, 0);
 
-  // })
+  })
 
 })
 
