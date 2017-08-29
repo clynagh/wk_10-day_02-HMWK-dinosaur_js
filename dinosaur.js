@@ -3,9 +3,9 @@ var Dinosaur = function(type){
 };
 
 
-Dinosaur.prototype.type = function(type){
-  return this.type(type);
-}
+// Dinosaur.prototype.offspring = function(){
+
+// }
 
 
 

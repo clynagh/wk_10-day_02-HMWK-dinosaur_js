@@ -10,10 +10,20 @@ describe("Dinosaur", function(){
   // });
 
   it("dinosaur has a type", function(){
-    dinosaur = new Dinosaur("big");
+    dinosaur1 = new Dinosaur("big");
+    dinosaur2 = new Dinosaur("scary");
+    dinosaur3 = new Dinosaur("spikey");
     // dinosaur.type("big")
-    assert.strictEqual(dinosaur.type, "big")
+    assert.strictEqual(dinosaur1.type, "big")
+    assert.strictEqual(dinosaur2.type, "scary")
+    assert.strictEqual(dinosaur3.type, "spikey")
   });
+
+  // it("dinosaur has number of offspring each year", function(){
+  //   dinosaur = new Dinosaur()
+  //   assert.strictEqual(dinosaur.offspring, 2)
+
+  // })
 
 })
 
