@@ -1,10 +1,11 @@
-var Dinosaur = function(){
-  this.dinosaurType = dinosaurType;
+var Dinosaur = function(type){
+  this.type = type;
 };
 
 
-
-
+Dinosaur.prototype.type = function(type){
+  return this.type(type);
+}
 
 
 
